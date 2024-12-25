@@ -1,0 +1,31 @@
+#for r-universe build, need to install pal! will need to create R-CMD-check yaml
+# install R package from github for r-universe build
+
+name: R-CMD-check
+
+on:
+ push:
+  branches: main
+
+jobs:
+  install-package:
+    runs-on: ubuntu-latest
+    steps:
+     - name: check out repository
+       uses: actions/checkout@v3
+
+     - name: set up R
+       uses: r-lib/actions/setup-r@v2
+
+     - name: install dependencies
+       uses: r-lib/actions/setup-r-dependencies@v2
+       with:
+        packages: devtools
+
+     - name: install package from github
+       env:
+        GITHUB_PAT:$
+        {{secrets.GITHUB_TOKEN}}
+       run: |
+        Rscript -e
+        "devtools::install_github('simonpcouch/pal')"
