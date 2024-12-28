@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# ggpal2
+# ggpal2 <img src="man/figures/logo.png" align="right" height="138" alt="" />
 
 <!-- badges: start -->
 <!-- badges: end -->
