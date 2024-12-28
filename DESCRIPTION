@@ -2,7 +2,7 @@ Package: ggpal2
 Title: {pal} extension ggplot2 LLM assistant
 Version: 0.0.0.01
 Authors@R: 
-    person("f", "hull", , "frankiethull@gmail.com", role = c("aut", "cre"))
+    person("Frank", "Hull", , "frankiethull@gmail.com", role = c("aut", "cre"))
 Description: Extension of {pal}, a LLM assistant add-in for RStudio and Positron IDEs built on {elmer}. {ggpal2} is an assistant designed to help with ggplot2.
 License: MIT + file LICENSE
 Encoding: UTF-8
