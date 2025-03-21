@@ -9,9 +9,9 @@
 #' i.e. for RStudio IDE, `Tools > Modify Keyboard Shortcuts > Search "Pal"`
 #' we suggest `Ctrl+Alt+P (or Ctrl+Cmd+P on macOS).`
 #'
-#' for more information, follow the {pal} instructions at https://simonpcouch.github.io/pal/articles/pal.html
+#' for more information, follow the "chores" instructions at https://simonpcouch.github.io/chores/articles/custom.html
 #' @name ggplot2-replace
 #' @aliases ggpal2 ggplot2
 #' @keywords ggplot2-replace
-#' @source {pal} https://simonpcouch.github.io/pal/articles/pal.html
+#' @source "chores" https://simonpcouch.github.io/chores/index.html
 NULL

@@ -6,7 +6,7 @@
 \alias{ggplot2}
 \title{the ggplot2 pal (ggplot2-replace)}
 \source{
-{pal} https://simonpcouch.github.io/pal/articles/pal.html
+"chores" https://simonpcouch.github.io/chores/index.html
 }
 \description{
 how-to use "ggplot2", the ggplot2-replace pal,
@@ -21,7 +21,7 @@ we recommend registering the pal addin to a keyboard shortcut.
 i.e. for RStudio IDE, \verb{Tools > Modify Keyboard Shortcuts > Search "Pal"}
 we suggest \verb{Ctrl+Alt+P (or Ctrl+Cmd+P on macOS).}
 
-for more information, follow the {pal} instructions at https://simonpcouch.github.io/pal/articles/pal.html
+for more information, follow the "chores" instructions at https://simonpcouch.github.io/chores/articles/custom.html
 }
 
 \keyword{ggplot2-replace}

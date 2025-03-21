@@ -3,11 +3,11 @@
 \docType{package}
 \name{ggpal2-package}
 \alias{ggpal2-package}
-\title{ggpal2: {pal} extension ggplot2 LLM assistant}
+\title{ggpal2: "chores" extension ggplot2 LLM assistant}
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-Extension of {pal}, a LLM assistant add-in for RStudio and Positron IDEs built on {elmer}. {ggpal2} is an assistant designed to help with ggplot2.
+Extension of "chores" FKA "pals", a LLM assistant add-in for RStudio and Positron IDEs built on "ellmer". "ggpal2" is an assistant designed to help with ggplot2.
 }
 \author{
 \strong{Maintainer}: Frank Hull \email{frankiethull@gmail.com}

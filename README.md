@@ -7,10 +7,11 @@
 <!-- badges: end -->
 
 The purpose of {ggpal2} is to have an LLM assistant specifically for
-ggplot2. This is an extension of the {pal} library which uses {elmer}.
-This way you can specify which LLM you would like to use for this task.
+ggplot2. This is an extension of the {chores} library which uses
+{ellmer}. This way you can specify which LLM you would like to use for
+this task.
 
-ggpal2 currently has one pal called “ggplot2”. The {pal} is a
+ggpal2 currently has one pal called “ggplot2”. The {chores} is a
 **replacement** assistant, meaning you highlight code or text and the
 pal should be able to replace with a ggplot2.
 
@@ -38,10 +39,9 @@ following snippet & restart your session:
 
 ``` r
 options(
-  .pal_fn = "chat_ollama",
-  .pal_args = list(model = "stable-code")
+  .chores_chat = ellmer::chat_ollama(model = "phi4:latest")
 )
 ```
 
-where “stable-code” is a model that can be pulled for use with locally
+where “phi4” is a model that can be pulled for use with locally
 installed ollama.
