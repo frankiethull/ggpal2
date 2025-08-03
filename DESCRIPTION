@@ -1,6 +1,6 @@
 Package: ggpal2
 Title: "chores" extension ggplot2 LLM assistant
-Version: 0.0.0.02
+Version: 0.0.1.9000
 Authors@R: 
     person("Frank", "Hull", , "frankiethull@gmail.com", role = c("aut", "cre"))
 Description: Extension of "chores" FKA "pals", a LLM assistant add-in for RStudio and Positron IDEs built on "ellmer". "ggpal2" is an assistant designed to help with ggplot2.

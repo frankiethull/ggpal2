@@ -4,6 +4,7 @@
 # ggpal2 <img src="man/figures/logo.png" align="right" height="138" alt="" />
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
 The purpose of {ggpal2} is to have an LLM assistant specifically for
@@ -34,8 +35,9 @@ devtools::install_github("frankiethull/ggpal2")
 
 ### local LLM
 
-If interested in using a local LLM, set up your .Rprofile with the
-following snippet & restart your session:
+If interested in using a local LLM, set up your .Rprofile
+(`usethis::edit_r_profile()`) with the following snippet & restart your
+session:
 
 ``` r
 options(
@@ -45,3 +47,18 @@ options(
 
 where “phi4” is a model that can be pulled for use with locally
 installed ollama.
+
+### cloud LLM
+
+If interested in using a cloud hosted LLM, set up your .Rprofile with a
+cloud hosted chat\_\* snippet, `usethis::edit_r_environ()` to set the
+API key, `GEMINI_API_KEY="my_api_key"` in this case, then restart your
+session:
+
+``` r
+options(
+  .chores_chat = ellmer::chat_google_gemini(model = "gemini-2.5-flash")
+)
+```
+
+Finally, run the ggplot2 chore with `Ctrl+Alt+C`
